@@ -14,7 +14,7 @@ class User
 void hello(char *name)
 {
 	User user(name);
-	stf::cout << user.greet() << std::endl; 
+	std::cout << user.greet() << std::endl; 
 
 }
 
