@@ -7,7 +7,10 @@ class User
 		User(char *name):name(name) {}
 		User(std::string &name):name(name) {} 
 
-		std::string greet() { return "hello, " + name; }
+		std::string greet()
+		{
+			return "hello, " + name; 
+		}
 
 };
 
